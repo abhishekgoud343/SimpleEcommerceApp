@@ -31,7 +31,7 @@ body {
     align-items: center;
 }
 
-button {
+.add-button {
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -40,6 +40,33 @@ button {
     cursor: pointer;
 }
 
+.remove-button {
+    width : 25px;
+    height: 25px;
+    /* padding: 5px; */
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+#clear-cart {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+#clear-cart:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
 
 button:disabled {
     background-color: #ccc;
